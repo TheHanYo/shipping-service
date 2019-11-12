@@ -1,31 +1,32 @@
 {
-  "name": "shipping-service",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheHanYo/shipping-service.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "bugs": {
-    "url": "https://github.com/TheHanYo/shipping-service/issues"
-  },
-  "homepage": "https://github.com/TheHanYo/shipping-service#readme",
-  "devDependencies": {
-    "nock": "^11.7.0",
-    "sinon": "^7.5.0"
-  },
-  "dependencies": {
-    "axios": "^0.19.0",
-    "express": "^4.17.1"
-  }
+	"name": "shipping-service",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest tests --env=node",
+		"start": "node src/app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TheHanYo/shipping-service.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"jest": {
+		"testEnvironment": "node"
+	},
+	"bugs": {
+		"url": "https://github.com/TheHanYo/shipping-service/issues"
+	},
+	"homepage": "https://github.com/TheHanYo/shipping-service#readme",
+	"devDependencies": {
+		"nock": "^11.7.0",
+		"sinon": "^7.5.0"
+	},
+	"dependencies": {
+		"axios": "^0.19.0",
+		"express": "^4.17.1"
+	}
 }
