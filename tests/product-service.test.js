@@ -25,6 +25,9 @@ describe('Product service', function () {
         .reply(200, {
           res: 15.5
         })
+
+
+        
   
     await productService
         .getProductWeight('19')
