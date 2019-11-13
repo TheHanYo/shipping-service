@@ -4,7 +4,7 @@ class ShippingController {
 
   constructor() {
     this.REGULAR_PRICE = 0.1
-    this.OVERNIGHT_PRICE = 100
+    this.OVERNIGHT_PRICE = 1000
   }
 
   async getItemShipping(item) {
